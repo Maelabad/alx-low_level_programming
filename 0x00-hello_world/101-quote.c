@@ -14,7 +14,7 @@ int main(void)
 	for (i = 0; i < 60 ; i++)
 	{
 
-		putc(str[i]);
+		putc(str[i],stdout);
 	}
 
 return (1);
