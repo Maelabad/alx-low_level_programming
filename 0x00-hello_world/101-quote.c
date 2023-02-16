@@ -10,13 +10,13 @@
 int main(void)
 {
 	char str[61] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19,"
-
-	for(int i=0; i<60 ; i++)
+	int i ;
+		
+	for (i = 0; i < 60 ; i++)
 	{
 
 		putc(str[i]);
 	}
 
 return (1);	
-
 }
