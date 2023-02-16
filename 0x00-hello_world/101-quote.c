@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char str[61] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19,";
+	char str[61] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19" ;
 	int i ;
 	for (i = 0; i < 60 ; i++)
 	{
