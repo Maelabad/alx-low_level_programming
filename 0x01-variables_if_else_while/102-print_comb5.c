@@ -11,7 +11,7 @@ short a, b;
 short x, y;
 for (a = 0 ; a < 10 ; a++)
 {
-for (b = 1 ; b < 10 ; b++)
+for (b = 0 ; b < 10 ; b++)
 {
 for (x = a ; x < 10 ; x++)
 {
