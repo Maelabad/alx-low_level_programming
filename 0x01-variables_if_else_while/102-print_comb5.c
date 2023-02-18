@@ -15,7 +15,7 @@ for (b = 0 ; b < 10 ; b++)
 {
 for (x = a ; x < 10 ; x++)
 {
-for (y = b + 1 ; y < 10 ; y++)
+for (y = 0 ; y < 10 ; y++)
 {
 putchar(a + '0');
 putchar(b + '0');
