@@ -19,5 +19,4 @@ int i, j;
 		}
 
 	}
-	return (1);
 }
