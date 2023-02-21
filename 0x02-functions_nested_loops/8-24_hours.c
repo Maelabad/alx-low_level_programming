@@ -12,15 +12,15 @@ int i, j, x;
 	{
 		for (j = 0 ; j < 60 ; j++)
 		{
-			x = i / 10;
-			_putchar(x + '0');
-			x = i % 10;
-			_putchar(x + '0');
+			//x = i / 10;
+			_putchar(i / 10 + '0');
+			//x = i % 10;
+			_putchar(i % 10 + '0');
 			_putchar(':');
-			x = j / 10;
-			_putchar(x + '0');
-			x = j % 10;
-			_putchar(x + '0');
+			//x = j / 10;
+			_putchar(j / 10 + '0');
+			//x = j % 10;
+			_putchar(j % 10 + '0');
 			_putchar('\n');
 		}
 
