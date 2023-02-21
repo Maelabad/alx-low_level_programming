@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include"main.h"
 /**
-* main - Print the alphbet
+* print_alphabet - Print the alphbet
 * Return: Nothing
 */
 
@@ -9,7 +9,7 @@ void  print_alphabet(void)
 {
 char i;
 
-	for (i = 'a';  i < 'z' ; i++)
+	for (i = 'a';  i <= 'z' ; i++)
 	{
 		_putchar(i);
 	}
