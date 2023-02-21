@@ -1,12 +1,12 @@
 
 #include"main.h"
 /**
-* _isalpha - Check if a number is lower or upper character
-* @c: variable representing the character
-* Return: 1 if true , else 0
+* print_sign - Check the signs of a number
+* @n: variable representing a number
+* Return: 1  , 0 or -1
 */
 
-int _isalpha(int c)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
@@ -15,10 +15,10 @@ int _isalpha(int c)
 	}
 	else if (n == 0)
 	{
-		_putchar('0')
+		_putchar('0');
 		return (0);
 	}
-	_putchar('-'
+	_putchar('-');
 	return (-1);
 }
 
