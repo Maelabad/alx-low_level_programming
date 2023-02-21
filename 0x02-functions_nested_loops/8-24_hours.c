@@ -17,10 +17,10 @@ int i, j, x;
 			x = i % 10;
 			_putchar(x + '0');
 			_putchar(':');
-			_putchar(x + '0');
 			x = j / 10;
 			_putchar(x + '0');
 			x = j % 10;
+			_putchar(x + '0');
 			_putchar('\n');
 		}
 
