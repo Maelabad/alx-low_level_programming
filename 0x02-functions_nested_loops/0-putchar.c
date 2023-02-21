@@ -14,10 +14,9 @@ int main(void)
 
 	while (i < 9)
 	{
-		_putchar(str[i];
+		_putchar(str[i]);
 		i++;
 	}
-	_putchar('\n');
 	return (0);
 }
 
