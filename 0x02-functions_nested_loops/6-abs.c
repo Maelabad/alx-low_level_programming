@@ -1,7 +1,7 @@
 
 #include"main.h"
 /**
-* _isalpha - Return the absolute  value of the number
+* _abs - Return the absolute  value of the number
 * @n: variable representing the number
 * Return: n or -n
 */
