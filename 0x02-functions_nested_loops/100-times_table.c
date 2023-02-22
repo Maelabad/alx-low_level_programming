@@ -36,5 +36,5 @@ int x, y, z, k, t;
 				_putchar(' ');
 				_putchar(' ');
 				_putchar(z + '0');
-		_putchar('\n');
+			_putchar('\n');
 }
