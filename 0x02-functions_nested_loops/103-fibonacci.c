@@ -10,9 +10,8 @@
 int main(void)
 {
 int i = 3;
-unsigned long f1 = 1, f2 = 2, sum, sum_P;
+unsigned long f1 = 1, f2 = 2, sum = 0, sum_P = 0;
 
-	printf("%ld, %ld, ", f1, f2);
 	while (sum < 4000000)
 	{
 		sum = f1 + f2;
