@@ -8,7 +8,7 @@
 
 int main(void)
 {
-int i = 4;
+int i = 3;
 unsigned long f1 = 1, f2 = 2, sum;
 
 	printf("%ld, %ld, ", f1, f2);
@@ -20,6 +20,7 @@ unsigned long f1 = 1, f2 = 2, sum;
 		f2 = sum;
 		i++;
 	}
+	sum = f1 + f2;
 	printf("%ld\n", sum);
 return (0);
 }
