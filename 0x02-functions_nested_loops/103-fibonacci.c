@@ -10,7 +10,7 @@
 int main(void)
 {
 int i = 3;
-unsigned long f1 = 1, f2 = 2, sum = 0, sum_P = 0;
+unsigned long f1 = 1, f2 = 2, sum = 0, sum_P = f2;
 
 	while (sum < 4000000)
 	{
