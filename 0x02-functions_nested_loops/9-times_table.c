@@ -21,8 +21,8 @@ int i, j, x;
 				if (j < 9)
 				{
 					_putchar(',');
+					_putchar(' ');
 				}
-				_putchar(' ');
 
 			}
 			else
@@ -31,8 +31,8 @@ int i, j, x;
 				if (j < 9)
 				{
 					_putchar(',');
+					_putchar(' ');
 				}
-				_putchar(' ');
 				_putchar(' ');
 			}
 		}
