@@ -13,10 +13,10 @@ int i, j, x;
 		for (j = 0 ; j < 60 ; j++)
 		{
 			x = i * j;
-			if(x >= 10)
+			if (x >= 10)
 			{
 				putchar(x / 10 + '0');
-				x = x % 10; 
+				x = x % 10;
 			}
 			_putchar(x + '0');
 			if (j < 9)
