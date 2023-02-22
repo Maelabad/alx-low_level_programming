@@ -16,11 +16,10 @@ unsigned long f1 = 1, f2 = 2, sum, sum_P;
 	while (sum < 4000000)
 	{
 		sum = f1 + f2;
-		if (sum % 2)
+		if (sum % 2 == 0)
 		{
 			sum_P += sum;
 		}
-		printf("%ld, ", sum);
 		f1 = f2;
 		f2 = sum;
 		i++;
