@@ -15,7 +15,7 @@ int i, j, x;
 			x = i * j;
 			if (x >= 10)
 			{
-				putchar(x / 10 + '0');
+				_putchar(x / 10 + '0');
 				x = x % 10;
 			}
 			_putchar(x + '0');
