@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* sum_multiples - Make the sum of multiples
+* int main - Make the sum of multiples
 * Return: Nothing
 */
 
-void sum_multiples(void)
+int main(void)
 {
 int i = 0;
 int sum = 0;
@@ -19,6 +19,7 @@ int sum = 0;
 		i++;
 	}
 	printf("%d\n", sum);
+return (0);
 }
 
 
