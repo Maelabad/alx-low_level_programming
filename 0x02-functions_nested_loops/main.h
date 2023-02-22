@@ -15,4 +15,6 @@ int add(int, int);
 
 void print_to_98(void);
 
+void sum_multiples(void);
+
 #endif
