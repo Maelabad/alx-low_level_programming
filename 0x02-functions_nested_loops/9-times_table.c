@@ -1,0 +1,24 @@
+#include"main.h"
+/**
+* times_table - Print each minutes in a day
+*
+* Return: Nothing
+*/
+
+void times_table(void)
+{
+int i, j, x;
+	for (i = 0 ; i < 24 ; i++)
+	{
+		for (j = 0 ; j < 60 ; j++)
+		{
+			_putchar(i * j + '0');
+			if (j < 9)
+			{
+			_putchar(',');
+			}
+			_putchar(' ');
+		}
+		_putchar('\n');
+	}
+}
