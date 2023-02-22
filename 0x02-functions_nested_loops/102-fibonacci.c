@@ -11,15 +11,15 @@ int main(void)
 int i = 4;
 unsigned long f1 = 1, f2 = 2, sum;
 
-	printf("%d, %d, ", f1, f2);
+	printf("%ld, %ld, ", f1, f2);
 	while (i < 50)
 	{
 		sum = f1 + f2;
-		printf("%d, ", sum);
+		printf("%ld, ", sum);
 		f1 = f2;
 		f2 = sum;
 		i++;
 	}
-	printf("%d\n", sum);
+	printf("%ld\n", sum);
 return (0);
 }
