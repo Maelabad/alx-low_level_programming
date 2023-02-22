@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* int main - Make the sum of multiples
+* main - Make the sum of multiples
 * Return: Nothing
 */
 
