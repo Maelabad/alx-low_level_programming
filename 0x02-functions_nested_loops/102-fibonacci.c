@@ -20,6 +20,6 @@ int f1 = 1, f2 = 1, sum;
 		f2 = sum;
 		i++;
 	}
-	printf("%d\n", fibo(i));
+	printf("%d\n", sum);
 return (0);
 }
