@@ -17,13 +17,24 @@ int i, j, x;
 			{
 				_putchar(x / 10 + '0');
 				x = x % 10;
+				_putchar(x + '0');
+				if (j < 9)
+				{
+					_putchar(',');
+				}
+				_putchar(' ');
+
 			}
-			_putchar(x + '0');
-			if (j < 9)
+			else
 			{
-			_putchar(',');
+				_putchar(x + '0');
+				if (j < 9)
+				{
+					_putchar(',');
+				}
+				_putchar(' ');
+				_putchar(' ');
 			}
-			_putchar(' ');
 		}
 		_putchar('\n');
 	}
