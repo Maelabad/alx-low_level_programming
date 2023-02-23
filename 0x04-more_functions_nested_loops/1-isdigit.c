@@ -2,7 +2,7 @@
 
 /**
 * _isupper - Check for a digits
-* @c: An integer 
+* @c: An integer
 * Return: 0
 */
 
