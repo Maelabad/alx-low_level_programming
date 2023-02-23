@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	long long nb = 612852475143;
+	long int nb = 612852475143;
 	int largest_prime_factor = 2;
 
 	while (nb > largest_prime_factor)
