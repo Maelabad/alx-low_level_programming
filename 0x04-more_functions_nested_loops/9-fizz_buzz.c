@@ -2,7 +2,7 @@
 
 /**
 * main - print number 1 to 100
-* Return: Nothing
+* Return: 0
 */
 
 int main(void)
@@ -29,4 +29,5 @@ int main(void)
 		}
 	}
 	printf("\n");
+	return (0);
 }
