@@ -2,13 +2,12 @@
 
 /**
 * _isupper - Check if a Character is upper
+* @c: An integer representing a character
 * Return: 0
 */
 
 int _isupper(int c)
 {
-	int i;
-
 	if (c >= 65 && c <= 91)
 	{
 		return (1);
