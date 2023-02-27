@@ -6,7 +6,7 @@
 * Return: A Size
 */
 
-int _strlen(int *s)
+int _strlen(char *s)
 {
 	return (sizeof(*s));
 }
