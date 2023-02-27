@@ -15,7 +15,7 @@ void print_array(int *a, int n)
 	{
 		do {
 			r = a[i] % 10;
-			_putchar(r + '\0');
+			_putchar(r + '0');
 		} while (r > 9);
 
 		_putchar(a[i]);
