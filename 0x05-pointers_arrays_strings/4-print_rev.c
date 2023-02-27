@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
-* _puts - Display a String
-* @str: A string to display
+* print_rev - Display a String in reverse
+* @s: A string to display
 * Return: Nothing
 */
 
-void _puts(char *s)
+void print_rev(char *s)
 {
 	int i = 1;
 
@@ -15,7 +15,7 @@ void _puts(char *s)
 		i++;
 
 	while (i > 0)
-		_putchar(str[i]);
+		_putchar(s[i]);
 		i--;
 
 	_putchar('\n');
