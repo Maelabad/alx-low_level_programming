@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* puts_half - Display n elements of an array
+* print_array - Display n elements of an array
 * @n: The numbers of elements to display
 * @a: A string to display
 * Return: Nothing
