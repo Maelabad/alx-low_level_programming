@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* _puts2 - Display a String each 2 letters
+* puts2 - Display a String each 2 letters
 * @str: A string to display
 * Return: Nothing
 */
 
-void _puts2(char *str)
+void puts2(char *str)
 {
 	int i = 0;
 
