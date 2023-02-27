@@ -3,10 +3,13 @@
 /**
 * _strlen - Update the value of n to 98
 * @s: An pointer on an  integer
-* Return: A Size
+* Return: A number of int
 */
 
 int _strlen(char *s)
 {
-	return (sizeof(*s));
+	int i = 0;
+	while s[i] != '\0':
+		i++;
+	return (i);
 }
