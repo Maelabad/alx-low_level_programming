@@ -8,8 +8,7 @@
 
 char *cap_string(char *s)
 {
-	int i;
-		int i = 0, j;
+	int i = 0, j;
 	char a[] = " \t\n,;.!?\"(){}";
 
 	while (*(s + i))
