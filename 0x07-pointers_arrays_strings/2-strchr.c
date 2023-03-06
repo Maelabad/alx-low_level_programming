@@ -10,12 +10,13 @@ include "main.h"
 char *_strchr(char *s, char c)
 {
 	unsigned int i = 0;
+	char *p = NULL;
 
 	for (i = 0; i < n; i++)
 	{
 		if (s[i] == c)
-			return (&s[i]);
+			*p = &s[i];
 	}
-	return (NULL);
+	return (p);
 }
 
