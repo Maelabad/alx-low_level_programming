@@ -2,8 +2,8 @@
 
 /**
 * set_string - t sets the value of a pointer to a char.
-* @**s: A pointer on another pointer on char
-* @*to: a pointer
+* @s: A pointer on another pointer on char
+* @to: a pointer
 * Return: Nothing
 */
 
