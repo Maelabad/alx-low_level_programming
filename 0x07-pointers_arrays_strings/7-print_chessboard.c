@@ -18,6 +18,10 @@ void print_chessboard(char (*a)[8])
 			{
 				_putchar(a[i][j]);
 			}
+			else if (a[i][j] >= 'A' && a[i][j] <= 'Z')
+			{
+				_putchar(a[i][j]);
+			}
 		}
 		_putchar('\n');
 	}
