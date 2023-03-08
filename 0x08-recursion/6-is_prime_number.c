@@ -8,7 +8,7 @@
 
 int is_prime_number(int n)
 {
-	int i = 2, mul = 0;
+	int i = 2;
 
 	while (i < n)
 	{
