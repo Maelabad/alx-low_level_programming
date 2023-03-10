@@ -7,8 +7,8 @@
  *
  * Return: Always o.
  */
-int main(argc, char *argv[])
+int main(argc,char __attribute__((__unused__)) char *argv[])
 {
-	printf("%s\n", argc);
+	printf("%s\n", argc - 1);
 	return (0);
 }
