@@ -14,10 +14,10 @@ int main(int argc, char *argv[])
 	if (argc == 2)
 	{
 		res = argv[1] * argv[2];
-		print("%d\n", res);
+		printf("%d\n", res);
 	}
 	else
-		printf("Error");
+		printf("Error\n");
 
 	return (1);
 }
