@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - prints all arguments it receives.
+ * main - prints adds positive numbers.
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointers to the arguments.
  *
