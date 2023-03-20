@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#inslude "dog.h"
+#include "dog.h"
 
 /**
 * init_dog - Initialise a dog
@@ -8,7 +8,7 @@
 * @name: a name
 * @age: an age
 * @owner: an owner
-* Return: 0
+* Return: Nothing
 */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
