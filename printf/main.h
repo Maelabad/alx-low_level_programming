@@ -8,9 +8,9 @@
 
 
 /**
- * struct printer - A new struct type defining a printer.
- * @symbol: A symbol representing a data type.
- * @print: A function pointer to a function that prints
+ * struct print - A new struct type defining a printer.
+ * @format: A symbol representing a data type.
+ * @p: A function pointer to a function that prints
  *         a data type corresponding to symbol.
  */
 typedef struct print

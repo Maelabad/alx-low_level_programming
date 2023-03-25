@@ -26,46 +26,28 @@ int print_char(va_list arg)
  */
 int print_int(va_list arg)
 {
-	int num, i, count=0, temp, div, j;
+	int num, i, count = 0, temp, div, j;
 
 	num = va_arg(arg, int);
 
 	temp = num;
-	while(temp!=0)
+	while (temp != 0)
 	{
 		count++;
-		temp/=10;
+		temp /= 10;
 	}
 
 
-	for(i=count-1; i>=0; i--)
+	for (i = count - 1; i >= 0; i--)
 	{
 		div = 1;
-		for(j = i - 1; j >= 0; j--)
+		for (j = i - 1; j >= 0; j--)
 			div *= 10;
 
 		_putchar((num / div) % 10 + '0');
 	}
 	return (count);
 }
-
-
-/**
- * print_float - Prints a float.
- * @arg: A list of arguments pointing to
- *       the float to be printed.
- */
-/*
-int print_float(va_list arg)
-{
-	float num;
-
-	num = va_arg(arg, double);
-	printf("%f", num);
-}
-
-*/
-
 
 
 /**
@@ -83,11 +65,10 @@ int print_string(va_list arg)
 
 	if (str != NULL)
 	{
-		while(*str)
+		while (*str)
 		{
 			_putchar(*str);
 			str++;
-			printf("i == %d",i);
 			i++;
 		}
 
@@ -112,19 +93,12 @@ int _printf(const char * const format, ...)
 	int i = 0, j = 0, val = 0;
 
 	char *separator = "";
-	
-	Print funcs[] = {
-		{"c", print_char},
-		{"s", print_string},
-		/*As the formats d and i both refer to int*/
-		{"i", print_int},
-		{"d", print_int}
 
-	};
+	Print funcs[] = {
+		{"c", print_char}, {"s", print_string},
+		/*As the formats d and i both refer to int*/{"i", print_int}, {"d", print_int} };
 
 	va_start(args, format);
-
-
 	while (format && (*(format + i)))
 	{
 		j = 0;
@@ -133,7 +107,6 @@ int _printf(const char * const format, ...)
 			while (j < 4 && (*(format + i + 1) != *(funcs[j].format)))
 				j++;
 		}
-
 		if (j < 4 && j != 0)
 		{
 			printf("%s", separator); /*A supprimer*/
@@ -146,10 +119,9 @@ int _printf(const char * const format, ...)
 			val++;
 		}
 		i++;
-
 	}
 	_putchar('\n');
-
 	va_end(args);
 	return (val);
 }
+
