@@ -9,7 +9,7 @@ void print_str(char *str)
 {
 	while (*str)
 	{
-		_putchar(*str + '0');
+		_putchar(*str);
 		str++;
 	}
 }
@@ -41,6 +41,7 @@ size_t print_list(const list_t *h)
 			_putchar(' ');
 			print_str(h->str);
 		}
+		_putchar('\n');
 		i++;
 		h = h->next;
 	}
