@@ -28,7 +28,7 @@ size_t print_list(const list_t *h)
 		if (h->str == NULL)
 		{
 			_putchar('[');
-			_putchar(('0');
+			_putchar('0');
 			_putchar(']');
 			_putchar(' ');
 			print_str("(nil)");
