@@ -7,7 +7,7 @@ For this project, we expect you to look at these concepts:
     Data Structures
     
     
-    ![IMG_2410](https://user-images.githubusercontent.com/120084291/229166467-970c802d-0c98-489f-889a-417acb1aae6f.jpeg)
+![IMG_2410](https://github.com/Maelabad/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/IMG_2410.jpeg)
 
 
 ## TASK
